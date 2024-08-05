@@ -71,7 +71,7 @@ export default function NavBar() {
           )}
           
         >
-          <div className="flex gap-2 items-center ">
+          <div className="flex gap-4 items-center ">
             <link.icon className="w-6 h-6 md:w-7 md:h-7 transition-transform duration-300 ease-in-out hover:scale-110" />
             <p className={`hidden xl:block ${ isActive ? "font-extrabold" : "font-light"}`}>{link.name}</p>
           </div>
