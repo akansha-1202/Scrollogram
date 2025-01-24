@@ -50,6 +50,7 @@ function MoreDropdown() {
   ];
 
   useEffect(() => {
+    // Function to handle clicks outside the dropdown
     const handleClickOutside = (event: MouseEvent) => {
       if (!event.target) return;
       if (ref.current && !ref.current.contains(event.target as Node)) {
@@ -58,6 +59,7 @@ function MoreDropdown() {
       }
     };
 
+    
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);

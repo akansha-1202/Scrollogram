@@ -18,7 +18,7 @@ const links = [
   },
   {
     name: "Search",
-    href: "/dashboard/search",
+    href: "/dashboard",
     icon: FiSearch,
     hideOnMobile: true,
   },
@@ -35,7 +35,7 @@ const links = [
   },
   {
     name: "Notifications",
-    href: "/dashboard/notifications",
+    href: "/dashboard",
     icon: Heart,
     hideOnMobile: true,
   },
@@ -46,7 +46,7 @@ const links = [
   },
   {
     name: "Profile",
-    href: "/dashboard/profile",
+    href: "/dashboard/profile",//dyanmic username will be added here
     icon: CgProfile,
   },
 ];
